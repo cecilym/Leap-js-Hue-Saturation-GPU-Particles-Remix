@@ -1,0 +1,51 @@
+
+@import url( http://fonts.googleapis.com/css?family=Quantico );
+
+html, body {
+    background: #1c3149;
+    background: -moz-radial-gradient(center, ellipse cover,  #1c3149 0%, #0d121c 80%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#1c3149), color-stop(80%,#0d121c));
+    background: -webkit-radial-gradient(center, ellipse cover,  #1c3149 0%,#0d121c 80%);
+    background: -o-radial-gradient(center, ellipse cover,  #1c3149 0%,#0d121c 80%);
+    background: -ms-radial-gradient(center, ellipse cover,  #1c3149 0%,#0d121c 80%);
+    background: radial-gradient(ellipse at center,  #1c3149 0%,#0d121c 80%);
+    overflow: hidden;
+    margin:0;
+}
+
+/* Info */
+
+.toggle {
+    visibility: hidden;
+}
+
+@-webkit-keyframes show-info {
+    0% { -webkit-transform: rotateY(120deg); }
+    100% { -webkit-transform: rotateY(0deg); }
+}
+
+@-moz-keyframes show-info {
+    0% { -moz-transform: rotateY(120deg); }
+    100% { -moz-transform: rotateY(0deg); }
+}
+
+@-ms-keyframes show-info {
+    0% { -ms-transform: rotateY(120deg); }
+    100% { -ms-transform: rotateY(0deg); }
+}
+
+@-o-keyframes show-info {
+    0% { -o-transform: rotateY(120deg); }
+    100% { -o-transform: rotateY(0deg); }
+}
+
+@keyframes show-info {
+    0% { transform: rotateY(120deg); }
+    100% { transform: rotateY(0deg); }
+}
+
+/**/
+
+#stats {
+  visibility: hidden;
+}
